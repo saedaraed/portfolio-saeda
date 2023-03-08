@@ -1,20 +1,14 @@
 import {  Box, Container, Tab, Tabs, Typography } from '@mui/material'
 import '../App.css'
 import { useState } from 'react';
-// import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import PropTypes from 'prop-types';
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
+import 'aos/dist/aos.css'; 
 
 
 AOS.init({  duration: 1000,});
 
-// const titleStyle = {
-//   fontSize: '30px',
-//   fontWeight: 'bold',
-//   color: '#e41db2' ,
 
-// }
 
 const skills = [
   {

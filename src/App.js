@@ -4,7 +4,7 @@ import { About } from './components/About';
 import { Contact } from './components/Contact';
 import { Category } from './components/Ctegory';
 import { Experience } from './components/Experience';
-import { HeroSection } from './components/HeroSection';
+import {  Home } from './components/HeroSection';
 import Navbar from './components/Navbar';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -38,7 +38,7 @@ function App() {
         </Box>
          <Navbar />
         <Routes>
-          <Route path="/home" element={  <HeroSection />} />
+          <Route path="/" element={  <Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Experience/>} />
           <Route path="/portfolio" element={  <Category />} />

@@ -6,8 +6,8 @@ const contentStyle = {
 const cardStyle = {
     width: { xs: '100%', md: '50%', lg: '32%' },
     position: 'relative',
-    minHeight:'auto',
-    //   height:'auto'
+    minHeight: 'auto',
+    marginBottom:'10px'
 }
 
 

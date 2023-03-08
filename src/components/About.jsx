@@ -30,11 +30,11 @@ export const About = () => {
                </Typography>
           </Box>
           <Box sx={{width:{xs:'100%' , md:'50%'} , marginTop:{xs:'20px' , md:'0px'}}} data-aos="fade-down-left">
-            <Box sx={{ width:'350px' , height:'350px' , background:'#342831' , border:'solid 4px #e41db2',  margin:'0 auto'}}>
+            <Box sx={{ width:{xs:'290px', md:'350px'} , height:{xs:'290px', md:'350px'}  , background:'#342831' , border:'solid 4px #e41db2',  margin:'0 auto'}}>
               
             </Box>
             
-            <Box component="img" alt="" src={Image}  sx={{ width:'350px' , height:'350px' , margin:'-350px 30px 0 auto' , objectFit:'cover'}}/>
+            <Box component="img" alt="" src={Image}  sx={{ width:{xs:'290px', md:'350px'}  , height:{xs:'290px', md:'350px'}  , margin:{xs:'-290px 30px 0 auto' , md:'-350px 30px 0 auto'} , objectFit:'cover'}}/>
            </Box>
         </Box>
     </Container>

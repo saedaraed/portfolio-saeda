@@ -8,11 +8,23 @@ export const DrawerComponent = ({pages}) => {
   return (
       <>
       <Drawer open={openDrawer} onClose={() => setOpenDrawer(false)}>
-        <List sx={{ background: '#4a3c47', padding: '10px'}} classsName='list-nav'>
+        <List sx={{ background: '#4a3c47', padding: '10px', minHight: '100vh' }} classsName='list-nav'>
+            <ListItem>
+            <ListItemButton>
+                <ListItemText>
+                  
+                  <Link className='link-navi' to={`/`} sx={{color:'#fff' , textDecoration:'none'}}>
+                    Home
+                  </Link>
+              </ListItemText>
+            </ListItemButton>
+            
+          </ListItem>
           {pages.map((page , index) => (
             <ListItem>
             <ListItemButton>
                 <ListItemText key={index}>
+                  
                   <Link className='link-navi' to={`/${page}`} sx={{color:'#fff' , textDecoration:'none'}}>
                     {page}
                   </Link>

@@ -106,7 +106,6 @@ export const Category = () => {
     console.log(list)
   return (
     <>
-      {/* <Box sx={{clipPath:' polygon(0 0, 65% 22%, 100% 0%, 100% 100%, 0 100%, 0% 0%)' , background:'red'}}> */}
       <Container maxWidth="lg" sx={{ minHeight:'100vh',  padding:{xs:'150px 20px' , md:'200px 0px'}}} data-aos="fade-down">
              <Box sx={{display:'flex' , gap:'10px' , alignItems:'center'}}>
               <Typography variant='h6' sx={{color:'#c4c2c2' , marginTop:'5px'}}>
@@ -117,7 +116,7 @@ export const Category = () => {
               </Typography>
               <Box sx={{width:{xs:'100px' , md:'300px'}  , height:'.5px' , background:'#63515f' , marginTop:'8px' }}></Box>
             </Box>
-        <Box sx={{ display: 'flex', gap: '10px' , width:'100%' , justifyContent:'center' , marginBottom:'30px' , marginTop:'50px'}}>
+        <Box sx={{ display: 'flex', gap: {xs:'20px', md:'10px'} , width:'100%' , justifyContent:'center' , marginBottom:'30px' , marginTop:'50px'}}>
           <Button onClick={handleCategoryChange} sx={{color:'#c4c2c2'}} className='button-style-active'>All</Button>
 
           <Button value='front-design' onClick={handleCategoryChange} sx={{color:'#c4c2c2'}}   className='button-style-active'>Front-Design</Button>
@@ -136,7 +135,7 @@ export const Category = () => {
          
               </Box>
         </Container>
-        {/* </Box> */}
+        
       </>
   )
 }

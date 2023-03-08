@@ -143,6 +143,7 @@ li {
 .css-4t3x6l-MuiPaper-root-MuiDrawer-paper{
   background-color: #4a3c47!important;
   width: 200px!important;
+  min-height: 100vh!important;
 }
 
 .link-navi{

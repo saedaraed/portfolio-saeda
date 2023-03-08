@@ -2,22 +2,13 @@ import React from 'react'
 import Box from '@mui/material/Box';
 import Navbar from './Navbar';
 import Image from '../assets/WhatsApp Image 2023-03-06 at 13.53.42.jpeg'
-import ImgBack from "../assets/e491c2bb7563ce8411ab83ca7aefaf21.jpg"
 import { Button, Container, Typography } from '@mui/material';
 import { keyframes } from '@emotion/react'
 
 const fadeIn = keyframes({ from: { opacity: 0 }, to: { opacity: 1 } })
 
 
-// const heroImage = {
-//     backgroundImage: `url(${ImgBack})`,
-//     backgroundRepeat:'no-repeat',
-//     // backgroundSize:'cover',
-//     // height: '100%',
-//     width: '100vw',
-//     objectFit:'cover'
-//     // clipPath:' polygon(100% 0, 100% 50%, 100% 100%, 67% 81%, 0 100%, 0% 0%)'
-// }
+
 const buttonSX = {
     color: '#e41db2',
     borderColor: '#e41db2',
@@ -35,12 +26,12 @@ const imageStyle ={
     borderRadius: '50%',
     objectFit:'cover'
 }
-export const HeroSection = () => {
+export const Home = () => {
 
   return (
       <>
           {/* <Box  sx={heroImage}  > */}
-          <Box sx={{background:'#4a3c47', width:'100%', height:'100vh' ,clipPath:{xs:'100%' , md:' polygon(100% 0, 100% 50%, 100% 100%, 67% 81%, 0 100%, 0% 0%)'}}} data-aos="fade-down" data-aos-duration="2000">
+          <Box sx={{background:'#4a3c47', width:'100%', height:'100vh' , clipPath:{xs:'100%' , md:' polygon(100% 0, 100% 50%, 100% 100%, 67% 81%, 0 100%, 0% 0%)'}}} data-aos="fade-down" data-aos-duration="2000">
                  
              
               <Container maxWidth="lg" sx={{height:'100%'}}>

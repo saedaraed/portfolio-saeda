@@ -1,12 +1,7 @@
 import { Box, Container , Link, Typography } from '@mui/material'
 import React from 'react'
 
-const titleStyle = {
-  fontSize: '30px',
-  fontWeight: 'bold',
-  color: '#e41db2' ,
 
-}
 const buttonSX = {
     color: '#e41db2',
     border: 'solid 2px #e41db2',
